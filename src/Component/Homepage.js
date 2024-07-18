@@ -97,8 +97,8 @@ const Homepage = () => {
 				</div>
 			</div>
 			<footer className="roadmapfooter">
-				&copy;2024 All rights reserved to SparkV
-			</footer>
+    		    &copy;2024 All rights reserved to SparkV &nbsp; <span class="heart-beat">❤️</span>
+	      	</footer>
 		</div>
 	);
 };

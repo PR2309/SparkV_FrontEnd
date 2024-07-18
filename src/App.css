@@ -658,8 +658,6 @@ div.borderXwidth a:hover:after {
   flex: 0 0 auto;
 }
 
-
-
 /* Scroll Bars */
 .homePage,.aboutPage{
   overflow-y: scroll;
@@ -1977,4 +1975,25 @@ a {
 
 .send-button:hover .rotate-text {
   transform: rotate(-45deg);
+}
+
+.heart-beat {
+  width: 10px;
+  height: 10px;
+  animation: beating 0.8s infinite;
+  font-size: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 6px;
+}
+
+@keyframes beating {
+  0% {
+      font-size: 10px;
+  }
+
+  100% {
+      font-size: 20px;
+  }
 }

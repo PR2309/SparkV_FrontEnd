@@ -103,7 +103,7 @@ const About = () => {
 					</h4>
 				</div>
 				<footer className="roadmapfooter">
-					&copy;2024 All rights reserved to SparkV
+					&copy;2024 All rights reserved to SparkV &nbsp; <span class="heart-beat">❤️</span>
 				</footer>
 			</div>
 		</div>
