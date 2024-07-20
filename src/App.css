@@ -1303,7 +1303,10 @@ body {
   height: 100vh; 
   overflow: hidden;
 }  
-  
+
+@media only screen and (max-width: 900px){
+        .langingPage_img{display:none;}
+    }
 
 .para::-webkit-scrollbar {width: 12px;}
 
