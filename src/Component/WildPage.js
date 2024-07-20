@@ -5,7 +5,7 @@ export const WildPage = () => {
     <div>
         <div className="wildPage">
             <div className="wild-body vh-100">
-                <img src="./images/default_bg.png" alt="" className="wildPage_sticker" />
+                <img src="./default_bg.png" alt="" className="wildPage_sticker" />
                 <div>
                     <section className="wildPage_content">
                         <nobr>
