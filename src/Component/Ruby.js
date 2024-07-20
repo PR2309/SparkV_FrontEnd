@@ -7,7 +7,7 @@ const Ruby = () => {
     <div>
          <div><Navbar/></div>
 
-        <div className="roadmap">
+        <div className="roadmap container-fluid">
        
       
             <div className="sidebar">
@@ -62,8 +62,9 @@ const Ruby = () => {
             </div>
         </div>
         <footer className="roadmapfooter">
-            &copy;2024 All rights reserved to SparkV &nbsp; <span class="heart-beat">❤️</span>
-        </footer>
+			&copy;2024 All rights reserved to SparkV &nbsp;{" "}
+			<span className="heart-beat">❤️</span>
+		</footer>
     </div>
   )
 }

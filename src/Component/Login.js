@@ -5,7 +5,6 @@ import { useNavigate } from 'react-router-dom';
 import { handleError, handleSuccess } from '../util';
 import { ToastContainer } from 'react-toastify';
 import {Link} from 'react-router-dom';
-
 const Login = () => {
     const [loginInfo, setLoginInfo] = useState({
         email: '',
@@ -87,8 +86,7 @@ const Login = () => {
                     <input type="checkbox" className="checkbox-input" />Remember me
                 </span>
                 <span className="forgot-pass">
-                    {/* <Link to="/" className="forgot-pass-link">Forgot Password?</Link> */}
-                    <Link to="/ai" className="forgot-pass-link">Forgot Password?</Link>
+                    <Link to="/" className="forgot-pass-link">Forgot Password?</Link>
                 </span>
             </div>
             <div className="login-actions">
