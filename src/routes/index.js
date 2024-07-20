@@ -162,9 +162,6 @@ const router = createBrowserRouter([
         path: "language/json", 
         element:<Json/>
       },{
-        path: "/singup", 
-        element:<SignUp/>
-      },{
         path: "language/angular", 
         element:<Angular/>
       },
