@@ -19,7 +19,6 @@ import C from "../Component/C";
 import Sql from "../Component/Sql";
 import Python from "../Component/Python";
 import Php from "../Component/Php";
-import Heading from "../Component/Heading";
 import Cpp from "../Component/Cpp";
 import Kotlin from "../Component/Kotlin";
 import Typescripts from "../Component/Typescripts";
@@ -141,9 +140,6 @@ const router = createBrowserRouter([
       },{
         path: "language/git", 
         element: <Git/>
-      },{
-        path: "heading", 
-        element: <Heading/>
       },{
         path: "language/dsa", 
         element:<Dsa/>
