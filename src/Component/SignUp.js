@@ -60,7 +60,7 @@ const SignUp = () => {
         }
         try {
             // const url = "http://localhost:3004/api/signup";
-            const url = "https://sparkv-server.onrender.com/api/signup";
+            const url = "https://sparkv-backend.onrender.com/api/signup";
             const response = await fetch(url, {
                 method: "POST",
                 headers: {

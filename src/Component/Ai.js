@@ -14,7 +14,7 @@ const Ai = () => {
       document.getElementById("output_prompt").textContent = "Typing...";
       document.getElementById("input_prompt").value = "";
       try {
-        const response = await fetch("https://sparkv-server.onrender.com/ai/ans", {
+        const response = await fetch("https://sparkv-backend.onrender.com/ai/ans", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

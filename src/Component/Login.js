@@ -23,7 +23,7 @@ const Login = () => {
        
         try {
             // const url = "http://localhost:3004/api/login";
-            const url = "https://sparkv-server.onrender.com/api/login";
+            const url = "https://sparkv-backend.onrender.com/api/login";
             const response = await fetch(url, {
                 method: "POST",
                 headers: {
@@ -86,7 +86,7 @@ const Login = () => {
                     <input type="checkbox" className="checkbox-input" />Remember me
                 </span>
                 <span className="forgot-pass">
-                    <Link to="/" className="forgot-pass-link">Forgot Password?</Link>
+                    <Link to="/home" className="forgot-pass-link">Forgot Password?</Link>
                 </span>
             </div>
             <div className="login-actions">
