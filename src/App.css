@@ -628,7 +628,6 @@ div.borderXwidth a:hover:after {
   padding-left: 100px;
 }
 .headcontent h1:nth-child(1) {
-
   top: 20px;
   left: 4;
 
@@ -2124,4 +2123,73 @@ a {
   100% {
       font-size: 20px;
   }
+}
+
+
+
+
+/* Wild / Default Page */
+
+.wildPage {
+  color: #C5C6C7;
+  font-family: 'Times New Roman', Times, serif;
+  text-shadow: 100rem;
+}
+
+.wild-body {
+  background-image: radial-gradient(#1F2833, #0d131b, #1F2833);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.wildPage_content {
+  position: fixed;
+  top: 50%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  background-size: cover;
+  background-position: center;
+  height: 60%;
+  width: 60vw;
+  background-repeat: no-repeat;
+}
+
+.wildPage_Para {
+  position: relative;
+  padding: none;
+  top: 35%;
+  text-shadow: 100000rem;
+  text-wrap: nowrap0;
+  color: #66FCF1;
+  overflow: hidden;
+}
+
+.symbols {
+  color: #45A29E;
+  text-shadow: 2em;
+}
+
+.wildPage_sticker {
+  position: absolute;
+  left: 8%;
+}
+
+.wild_btn {
+  opacity: calc(50%);
+  z-index: 10;
+  border: none;
+  box-shadow: #1F2833;
+  padding: 10px 15px 10px 15px;
+  top: 40%;
+  position: relative
+}
+
+.wild_btn :hover {
+  opacity: calc(200%);
+  color: #66FCF1;
 }

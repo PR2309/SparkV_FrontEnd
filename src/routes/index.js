@@ -38,6 +38,7 @@ import Angular from "../Component/Angular";
 import About from "../Component/About";
 import React, { useEffect, useState } from 'react';
 import Ai from "../Component/Ai";
+import WildPage from "../Component/WildPage";
 
 
 
@@ -168,6 +169,10 @@ const router = createBrowserRouter([
       {
         path: "",
         element: <LandingPage/>
+      },
+      {
+        path: "*",
+        element: <WildPage />
       }
     ]
   }
