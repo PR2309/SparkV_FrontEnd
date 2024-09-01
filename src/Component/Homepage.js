@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./Navbar";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "../App.css";
 import { Link } from "react-router-dom";
 const Homepage = () => {
@@ -17,15 +17,16 @@ const Homepage = () => {
 					<h1 className="roadmapheading">Roadmap</h1>
 				</div>
 				<section className="homesection">
-					<p>
-						<span className="s1 fs-1">Your Journey to mastery starts here</span>
-					</p>
+					<p><span className="s1 fs-1">Your Journey to mastery starts here</span></p>
 					<p className="s2">
-						<span className="s22 fs-4">
-							{" "}
+						<span className="s22 fs-4">{" "}
 							<i>
 								Discover your path to success with SparkV's expertly designed
-								roadmaps. Here, we’re committed to transforming you from a coding novice to a true virtuoso. Our promise! Mastery of any language you choose. But remember, the secret ingredient lies in unwavering discipline on this journey. So buckle up, my friend, and let’s craft your coding saga!
+								roadmaps. Here, we’re committed to transforming you from a
+								coding novice to a true virtuoso. Our promise! Mastery of any
+								language you choose. But remember, the secret ingredient lies in
+								unwavering discipline on this journey. So buckle up, my friend,
+								and let’s craft your coding saga!
 							</i>
 						</span>
 					</p>
@@ -49,17 +50,15 @@ const Homepage = () => {
 				</div>
 			</div>
 			<h1 className="heading1">Dive into Our Roadmap</h1>
-
 			<div className="roadmap-container">
 				<div>
 					<Link to="/Language/cpp" className="nav-link">
 						<div className="roadmap-cpp">
-							<img src="/c.png" alt="C++" />
+							<img src="/cpp.png" alt="C++" />
 							C++
 						</div>
 					</Link>
 				</div>
-
 				<div>
 					<Link to="/Language/python" className="nav-link">
 						<div className="roadmap-python">
@@ -68,7 +67,6 @@ const Homepage = () => {
 						</div>
 					</Link>
 				</div>
-
 				<div>
 					<Link to="/Language/react" className="nav-link">
 						<div className="roadmap-react">
@@ -77,7 +75,6 @@ const Homepage = () => {
 						</div>
 					</Link>
 				</div>
-
 				<div>
 					<Link to="/Language/html" className="nav-link">
 						<div className="roadmap-html">
@@ -86,7 +83,6 @@ const Homepage = () => {
 						</div>
 					</Link>
 				</div>
-
 				<div>
 					<Link to="/Language/cpp" className="nav-link">
 						<div className="roadmap-java">
@@ -95,10 +91,31 @@ const Homepage = () => {
 						</div>
 					</Link>
 				</div>
+				<div>
+					<Link to="/Language/mongo" className="nav-link">
+						<div className="roadmap-mongo">
+							<img src="/mongoDB.png" alt="MongoDB" />
+							MongoDB
+						</div>
+					</Link>
+				</div>
+				<div>
+					<Link to="/Language" className="nav-link">
+						<div className="roadmap-page">
+							{/* <img src="/mongoDB.png" alt="Explore"/> */}
+							<button className="more-btn btn">
+								<span className="more-btn-span">
+									<i className="bi bi-arrow-right"></i>
+								</span>
+							</button>
+							More
+						</div>
+					</Link>
+				</div>
 			</div>
 			<footer className="roadmapfooter">
 				&copy;2024 All rights reserved to SparkV &nbsp;{" "}
-					<span className="heart-beat">❤️</span>
+				<span className="heart-beat">❤️</span>
 			</footer>
 		</div>
 	);
