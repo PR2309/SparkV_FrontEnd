@@ -13,7 +13,6 @@ const Ai = () => {
 			historyBox.style.display = "none";
 		}
 	};
-
 	const handleAnswer = async () => {
 		const User = document.getElementById("input_name").value;
 		const age = document.getElementById("input_age").value;
@@ -21,23 +20,23 @@ const Ai = () => {
 		const days = document.getElementById("input_day").value;
 		const language = document.getElementById("input_language").value;
 		const question = document.getElementById("input_prompt").value;
-
+	
 		if (validateDetails(User, age, days, language, question)) {
 			document.getElementById("output_prompt").textContent = "Typing...";
 			document.getElementById("input_prompt").value = "";
 			try {
 				const response = await fetch("https://sparkv-server.onrender.com/ai/ans",{
-						method: "POST",
-						headers: {"Content-Type": "application/json",},
-						body: JSON.stringify({
-							name: User,
-							age: age,
-							level: level,
-							days: days,
-							language: language,
-							problem: question,
-						}),
-          });
+					method: "POST",
+					headers: { "Content-Type": "application/json" },
+					body: JSON.stringify({
+						name: User,
+						age: age,
+						level: level,
+						days: days,
+						language: language,
+						problem: question,
+					}),
+				});
 				const data = await response.json();
 				document.getElementById("output_prompt").innerHTML=formatMarkdown(data.letter);
 				addToHistory(question);
@@ -47,7 +46,6 @@ const Ai = () => {
 			}
 		}
 	};
-
 	const validateDetails = (name, age, days, language, question) => {
 		document.getElementById("output_prompt").textContent = "";
 		if(name.length<=1){
