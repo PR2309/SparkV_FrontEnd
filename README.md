@@ -1,6 +1,44 @@
-# Getting Started with Create React App
+# Getting Started with SparkV Roadmaps
+
+SparkV Roadmaps is an interactive web application designed to help users generate customized learning roadmaps based on their input and preferences. The application leverages AI to provide tailored recommendations, enhancing the learning experience for users in various programming languages and technologies.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Tech Stack
+- **Frontend:** React, JavaScript, Bootstrap
+- **Backend:** Node.js, Express, MongoDB
+- **Integration:** MERN stack with AI capabilities
+- **Deployment:** Netlify, Render
+
+## Deployed Links
+- **Frontend Repo:** [SparkV Frontend](https://github.com/PR2309/SparkV_Frontend)
+- **Backend Repo:** [SparkV Frontend](https://github.com/PR2309/Server)
+- **Live Website:** [SparkV Roadmaps Frontend on Netlify](https://sparkv-roadmaps.netlify.app/)
+
+## Setup Instructions
+To run this project locally, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/PR2309/SparkV_FrontEnd.git
+   cd Server
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Create a `.env` file in the root directory** to store your environment variables. This prevents sensitive information from being exposed in the codebase:
+   ```plaintext
+   REACT_APP_BACKEND_URL=<your_backend_url>
+   REACT_APP_FRONTEND_URL=<your_frontend_url>
+   ```
+
+4. **Start the development server:**
+   ```bash
+   npm start
+   ```
 
 ## Available Scripts
 
@@ -68,3 +106,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Clone the Repository
+
+To clone the SparkV project, run the following command:
+
+```bash
+git clone https://github.com/PR2309/SparkV_Frontend.git
+```
+
